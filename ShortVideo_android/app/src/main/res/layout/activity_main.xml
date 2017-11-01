@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/activity_main_video_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="对已有的视频进行剪辑"
+        android:textColor="#333"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/activity_main_video_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="视频录制"
+        android:textColor="#333"
+        android:textSize="18sp" />
+
+</LinearLayout>
